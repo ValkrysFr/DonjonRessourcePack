@@ -1,0 +1,70 @@
+{
+    "parent": "builtin/entity",
+    "gui_light": "front",
+    "textures": {
+        "particle": "block/dark_oak_planks"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 10, 6, -4 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 10, 6, 12 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, 5 ],
+            "translation": [ -10, 2, -10 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 180, 5 ],
+            "translation": [ 10, 0, -10 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+        "gui": {
+            "rotation": [ 15, -25, -5 ],
+            "translation": [ 2, 3, 0 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ -2, 4, -5],
+            "scale":[ 0.5, 0.5, 0.5]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 4, 4, 2],
+            "scale":[ 0.25, 0.25, 0.25]
+        }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "item/shield_blocking"
+        },
+        { "predicate": { "custom_model_data": 2601 }, "model": "item/akaleaf/overseer/overseer_shield_netherite" },
+        { "predicate": { "custom_model_data": 2601, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_netherite" },
+        { "predicate": { "custom_model_data": 2602 }, "model": "item/akaleaf/overseer/overseer_shield_diamond" },
+        { "predicate": { "custom_model_data": 2602, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_diamond" },
+        { "predicate": { "custom_model_data": 2603 }, "model": "item/akaleaf/overseer/overseer_shield_golden" },
+        { "predicate": { "custom_model_data": 2603, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_golden" },
+        { "predicate": { "custom_model_data": 2604 }, "model": "item/akaleaf/overseer/overseer_shield_iron" },
+        { "predicate": { "custom_model_data": 2604, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_iron" },
+        { "predicate": { "custom_model_data": 2605 }, "model": "item/akaleaf/overseer/overseer_shield_stone" },
+        { "predicate": { "custom_model_data": 2605, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_stone" },
+        { "predicate": { "custom_model_data": 2606 }, "model": "item/akaleaf/overseer/overseer_shield_wooden" },
+        { "predicate": { "custom_model_data": 2606, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_wooden" },
+        { "predicate": { "custom_model_data": 2607 }, "model": "item/akaleaf/overseer/overseer_shield_blood" },
+        { "predicate": { "custom_model_data": 2607, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_blood" },
+        { "predicate": { "custom_model_data": 2608 }, "model": "item/akaleaf/overseer/overseer_shield_ender" },
+        { "predicate": { "custom_model_data": 2608, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_ender" },
+        { "predicate": { "custom_model_data": 2609 }, "model": "item/akaleaf/overseer/overseer_shield_emerald" },
+        { "predicate": { "custom_model_data": 2609, "blocking": 1 }, "model": "item/akaleaf/overseer/overseer_shield_blocking_emerald" }
+    ]
+}

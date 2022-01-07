@@ -1,0 +1,22 @@
+{
+   "littleroom.jackpot.spin":{
+		 "sounds": [
+			"littleroom/jackpot/spin"
+		 ]
+	},
+   "littleroom.jackpot.fail":{
+		 "sounds": [
+			"littleroom/jackpot/fail"
+		 ]
+	},
+   "littleroom.jackpot.win":{
+		 "sounds": [
+			"littleroom/jackpot/win"
+		 ]
+	},
+   "littleroom.jackpot.music":{
+		 "sounds": [
+			"littleroom/jackpot/music"
+		 ]
+	}
+}

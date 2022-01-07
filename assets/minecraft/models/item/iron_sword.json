@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 2601}, "model": "item/akaleaf/overseer/overseer_sword_netherite"},
+        { "predicate": {"custom_model_data": 2602}, "model": "item/akaleaf/overseer/overseer_sword_diamond"},
+        { "predicate": {"custom_model_data": 2603}, "model": "item/akaleaf/overseer/overseer_sword_golden"},
+        { "predicate": {"custom_model_data": 2604}, "model": "item/akaleaf/overseer/overseer_sword_iron"},
+        { "predicate": {"custom_model_data": 2605}, "model": "item/akaleaf/overseer/overseer_sword_stone"},
+        { "predicate": {"custom_model_data": 2606}, "model": "item/akaleaf/overseer/overseer_sword_wooden"},
+        { "predicate": {"custom_model_data": 2607}, "model": "item/akaleaf/overseer/overseer_sword_blood"},
+        { "predicate": {"custom_model_data": 2608}, "model": "item/akaleaf/overseer/overseer_sword_ender"},
+        { "predicate": {"custom_model_data": 2609}, "model": "item/akaleaf/overseer/overseer_sword_emerald"}
+    ]
+}

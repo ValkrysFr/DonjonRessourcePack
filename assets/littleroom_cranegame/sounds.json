@@ -1,0 +1,37 @@
+{
+   "littleroom.cranegame.game1":{
+		 "sounds": [
+			"littleroom/cranegame/game1"
+		 ]
+	},
+	"littleroom.cranegame.game2":{
+		 "sounds": [
+			"littleroom/cranegame/game2"
+		 ]
+	},
+	"littleroom.cranegame.game3":{
+		 "sounds": [
+			"littleroom/cranegame/game3"
+		 ]
+	},
+	"littleroom.cranegame.drop":{
+		 "sounds": [
+			"littleroom/cranegame/drop"
+		 ]
+	},
+	"littleroom.cranegame.win":{
+		 "sounds": [
+			"littleroom/cranegame/win"
+		 ]
+	},
+	"littleroom.cranegame.lose":{
+		 "sounds": [
+			"littleroom/cranegame/lose"
+		 ]
+	},
+	"littleroom.cranegame.music_loop":{
+		 "sounds": [
+			"littleroom/cranegame/music_loop"
+		 ]
+	}
+}

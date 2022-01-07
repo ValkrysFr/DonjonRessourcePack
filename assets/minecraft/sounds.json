@@ -1,0 +1,18 @@
+{
+     "reaper.attack_hit":
+	 {"category": "master","sounds": [{"name": "reaper/attack_hit","stream": false}]},
+     "reaper.circle_sweep":
+	 {"category": "master","sounds": [{"name": "reaper/circle_sweep","stream": false}]},
+     "reaper.ground_attack":
+	 {"category": "master","sounds": [{"name": "reaper/ground_attack","stream": false}]},
+     "reaper.soul_take":
+	 {"category": "master","sounds": [{"name": "reaper/soul_take","stream": false}]},
+     "reaper.sweep":
+	 {"category": "master","sounds": [{"name": "reaper/sweep","stream": false}]},
+     "reaper.teleport_attack":
+	 {"category": "master","sounds": [{"name": "reaper/teleport_attack","stream": false}]},
+     "reaper.teleport_cast":
+	 {"category": "master","sounds": [{"name": "reaper/teleport_cast","stream": false}]},
+     "reaper.teleport_silence":
+	 {"category": "master","sounds": [{"name": "reaper/teleport_silence","stream": false}]}
+}

@@ -1,0 +1,12 @@
+{
+   "littleroom.lootchest.open":{
+		 "sounds": [
+			"littleroom/lootchest/open"
+		 ]
+	},
+   "littleroom.lootchest.hit":{
+		 "sounds": [
+			"littleroom/lootchest/hit"
+		 ]
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+    "overrides": [
+        { "predicate": {"custom_model_data": 2601}, "model": "item/akaleaf/overseer/overseer_staff_netherite"},
+        { "predicate": {"custom_model_data": 2602}, "model": "item/akaleaf/overseer/overseer_staff_diamond"},
+        { "predicate": {"custom_model_data": 2603}, "model": "item/akaleaf/overseer/overseer_staff_golden"},
+        { "predicate": {"custom_model_data": 2604}, "model": "item/akaleaf/overseer/overseer_staff_iron"},
+        { "predicate": {"custom_model_data": 2605}, "model": "item/akaleaf/overseer/overseer_staff_stone"},
+        { "predicate": {"custom_model_data": 2606}, "model": "item/akaleaf/overseer/overseer_staff_wooden"},
+        { "predicate": {"custom_model_data": 2607}, "model": "item/akaleaf/overseer/overseer_staff_blood"},
+        { "predicate": {"custom_model_data": 2608}, "model": "item/akaleaf/overseer/overseer_staff_ender"},
+        { "predicate": {"custom_model_data": 2609}, "model": "item/akaleaf/overseer/overseer_staff_emerald"}
+    ]
+}
